@@ -365,7 +365,9 @@ if (!class_exists('WC_Emailplatform_Handler')) {
                 // Email admin
                 $admin_email = get_option('admin_email');
                 $admin_email = apply_filters($this->namespace_prefixed('admin_email'), $admin_email);
+                
                 wp_mail($admin_email, __('WooCommerce eMailPlatform subscription failed', 'emailplatform-woocommerce'), $error_response);
+                
             } else {
                 // Hook on success
                 do_action($this->namespace_prefixed('subscription_success'), $email, array('list_id' => $list_id, 'order_id' => $order_id));

@@ -16,7 +16,7 @@ final class WC_Emailplatform_Plugin {
      *
      * @var string
      */
-    private static $version = '1.0.1';
+    private static $version = '1.0.2';
 
     /**
      * Plugin singleton instance

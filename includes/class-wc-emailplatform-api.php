@@ -156,8 +156,12 @@ class WC_Emailplatform_API {
         if ($response == false)
             return false;
 
-        if (is_string($response))
+        if (is_string($response)){
+            if(strpos($response, 'Someone is already subscribed') !== false){
+                return $response;
+            }
             return false;
+        }
         
         return $response;
         
