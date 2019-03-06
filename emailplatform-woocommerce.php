@@ -8,7 +8,7 @@
   Plugin URI: https://emailplatform.com
   Description: Add subscribe to eMailPlatform on WooCommerce checkout page
   Version: 1.0.2
-  WC tested up to: 3.5.4
+  WC tested up to: 5.1
   Author: Kasper Bang
   Author URI: https://github.com/kmbdk
   License: GPLv2 or later
