@@ -9,7 +9,7 @@
  * @param  string|array      $classes Text or arrray of classes to sanitize
  * @return string            Sanitized CSS string
  */
-function wcemp_sanitize_html_class( $classes ) {
+function empwc_sanitize_html_class( $classes ) {
 
 	if( is_string( $classes ) ) {
 		$classes = explode(' ', $classes );

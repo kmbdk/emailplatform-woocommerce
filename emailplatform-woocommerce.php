@@ -7,7 +7,7 @@
   Plugin Name: eMailPlatform for WooCommerce
   Plugin URI: https://emailplatform.com
   Description: Add subscribe to eMailPlatform on WooCommerce checkout page
-  Version: 1.0.2
+  Version: 1.0.3
   WC tested up to: 5.1
   Author: Kasper Bang
   Author URI: https://github.com/kmbdk
